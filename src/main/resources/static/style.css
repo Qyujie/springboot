@@ -1,0 +1,33 @@
+body{
+	padding: 0 0 0 0;
+}
+#canvas{
+	background-color:rgba(20,185,200,0.1) ;
+}
+
+button{
+	width:50px;
+    height:30px;
+	position: absolute;
+	display: block;
+	margin: auto;
+	bottom: 70px;
+	left: 0;
+	right: 0;
+}
+
+.bodydiv {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+#div01{
+	background-color: rgba(20,185,200,1);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
