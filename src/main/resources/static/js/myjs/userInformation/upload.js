@@ -17,6 +17,7 @@ $(function(){
 				    processData: false, //必须false才会自动加上正确的Content-Type
 				    success:function(result){
 				    	$("#div-headPortrait").css("background-image", "url(" + result + ")");
+				    	$("#div-navtop-headPortrait div").css("background-image", "url(" + result + ")");
 				    }
 			   });
 		     }); 

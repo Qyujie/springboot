@@ -4,3 +4,12 @@
 	margin:0 auto;
 	background-color:rgba(20,185,200,0.1);
 }
+
+/* 轮播图片 */
+.carousel-inner img{
+	margin: 0 auto;
+}
+
+.carousel-control{
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0);
+}

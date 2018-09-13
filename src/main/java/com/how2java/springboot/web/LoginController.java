@@ -41,11 +41,6 @@ public class LoginController {
 		return "login";
 	}
 	
-	@RequestMapping("/home")
-	public String home(Model m) {
-		return "home";
-	}
-	
 	@RequestMapping("/addUser")
 	@ResponseBody
 	public String listUser(User c) throws Exception {

@@ -1,4 +1,4 @@
-/* bodydiv.html */
+/* bodydiv.html **********************************/
 .bodydiv {
 	position: absolute;
 	width: 100%;
@@ -6,7 +6,7 @@
 	background-size: cover;
 }
 
-/* audio.html */
+/* audio.html *************************************/
 #audio {
 	position: absolute;
 }
@@ -19,20 +19,24 @@
 	height: 40px;
 }
 
-/* navtop.html */
+/* navtop */
 .navtop {
 	width: 100%;
 	height: 80px;
-}
-
-#div-navtop {
 	background-color: rgba(20, 185, 200, 1);
 }
 
+#div-navtop-center{
+	height: 100%;
+	width: 80%;/* 和主页内容宽度相同 */
+	margin:0 auto;
+}
+
+/* 按钮组 */
 #div-button-navtop {
 	height: 100%;
 	width: 450px;
-	margin: 0 auto;
+	float: left;
 }
 
 #div-button-navtop button {
@@ -46,7 +50,85 @@
 	background-color: rgba(20, 185, 200, 1);
 }
 
-/* position.html */
+/* 搜索栏 */
+#div-topNavigation{
+	float: left; 
+	position:relative;
+	top: 23px;
+	left:20px;
+	background-color:rgba(255,255,255,0.9);
+	border-radius:15px;
+	width:250px;
+}
+
+#div-topNavigation button{
+	position:absolute;
+	top: 5px;
+	left:10px;
+	width:24px;
+    height:24px;
+	border: none;
+	border-radius:20px;
+	background-color:rgba(20,185,200,0);
+}
+
+
+#div-topNavigation button span{
+    position: absolute;
+    top: 7px;
+    left: 5px;
+	color:rgba(20,185,200,1);
+}
+
+#div-navTopCommonSearch{
+	position:relative;
+	left:40px;
+	background-color:rgba(255,255,255,0);
+}
+
+#div-navTopCommonSearch input{
+	height: 35px;
+	width:395px;
+	border: none;
+	background-color: transparent;
+}
+
+/* 头像 */
+#div-navtop-headPortrait{
+	position:relative;
+	float: right;
+	top: 15px;
+	height: 54px;
+	width:54px;
+	background-color: rgba(255,255,255,.9);
+	border-radius:27px;
+	padding:2px;
+}
+
+#div-navtop-headPortrait:hover{
+	cursor:pointer;
+	background-color: rgba(255,255,255,1);
+	box-shadow:0px 0px 2px 1px rgba(255,255,255,.5);
+}
+
+#div-navtop-headPortrait div{
+	height: 50px;
+	width:50px;
+	background-size: cover;
+	border-radius:25px;
+}
+
+#div-navtop-headPortrait .dropdown-menu{
+	position: absolute;
+	left:-50px;
+	min-width: auto;
+}
+
+#div-navtop-headPortrait li{
+	width:100px;
+}
+
+/* position.html ***************************************/
 .position {
 	width: 100%;
 	height: 30px;
@@ -57,7 +139,7 @@
 }
 
 
-/* 置顶按钮 */
+/* 置顶按钮 ***********************************/
 .wraper{
     width:960px;
     margin:0 auto
@@ -79,7 +161,7 @@
 }
 
 
-/*模态提示框*/
+/*模态提示框*****************************************/
 #ModalTip{
 	border:none;
 	margin: auto;

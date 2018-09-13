@@ -76,7 +76,6 @@
 
 #topNavigation-iframe{
 	position:absolute;
-	width:100px;
 	top: 20px;
 	left:20px;
 	background-color:rgba(255,255,255,0.9);
@@ -112,7 +111,7 @@
 	height: 35px;
 	width:395px;
 	border: none;
-	BACKGROUND-COLOR: transparent;
+	background-color: transparent;
 }
 
 
